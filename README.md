@@ -5,7 +5,7 @@ This project involves designing and implementing a relational database to manage
 
 ---
 ## ER-Diagram
-[![ER Diagram](https://raw.githubusercontent.com/aacruzgon/HealthCareManagementApplication/main/images/02_ERDiagram.png)](https://raw.githubusercontent.com/aacruzgon/HealthCareManagementApplication/main/images/02_ERDiagram.pdf)
+![ER Diagram](https://github.com/aacruzgon/HealthCareManagementApplication/raw/main/images/ERDiagram.png)
 --
 ## ✨ Features  
 
