@@ -1,3 +1,5 @@
+-- Author Alan Cruz Gonzalez
+
 -- SELECTING DATABASE
 USE assign2db;
 
