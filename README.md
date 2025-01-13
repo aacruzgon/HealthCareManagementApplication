@@ -90,7 +90,7 @@ This project involves designing and implementing a relational database to manage
 
 1. **Clone the repository**:  
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/aacruzgon/HealthCareManagementApplication
 2.	Set up the database:
 Run the provided SQL scripts to create and initialize the database schema:
 	•	Create tables for doctors, nurses, and patients.
