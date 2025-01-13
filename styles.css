@@ -1,0 +1,273 @@
+/* Programmer Name: 02 */
+
+/**
+ * File Purpose:
+ * This CSS stylesheet provides styling for the UWO Healthcare web application. It includes:
+ * - General styling for body, headings, and navigation header.
+ * - Specific styling for buttons, dropdowns, forms, tables, and messages.
+ * - Responsive and visually appealing design elements for various components.
+
+Detailed Code Notes:
+- Navigation Header:
+  - Styles the header with a shadow effect and aligns navigation buttons centrally.
+- Buttons:
+  - Styled with hover effects to improve user interaction and visual feedback.
+- Tables:
+  - Implements alternating row colors and hover effects for better readability.
+  - Includes styling for table headers and ensures proper padding and alignment.
+- Forms:
+  - Designed with a clean and centered layout.
+  - Input fields, select elements, and buttons are styled consistently.
+- Messages:
+  - Success and error messages are styled to provide clear visual cues.
+- Responsive Design:
+  - Uses flexible widths and maximum width constraints to ensure the application looks good on different screen sizes.
+ */
+
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading */
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Navigation header styling */
+.header {
+    background-color: white; 
+    padding: 20px 0;
+    color: black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: black; /* Title in black */
+}
+
+/* Button container styling */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #5F3C92;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+    background-color: #4B287E;
+}
+
+/* Content section styling */
+.content {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px 12px; /* Adjust padding to make columns narrower */
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #5F3C92;
+    color: white;
+    font-weight: bold;
+    font-size: 14px; /* Reduce font size for better fit */
+    white-space: nowrap; /* Prevents text wrapping */
+}
+
+/* Dropdown container styling */
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center items vertically */
+    gap: 10px;
+    margin: 10px 0;
+}
+
+/* Dropdown styling */
+.dropdown-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 500px; /* Set a fixed width */
+    max-width: 80%; /* Alternatively, set a maximum width if you want it responsive */
+    margin: 0 auto; /* Center the container */
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #5F3C92;
+    color: white;
+    cursor: pointer;
+}
+
+/* Options within select elements */
+select option {
+    color: black;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #5F3C92;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4B287E;
+}
+
+/* Container for form */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+/* Form groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #5F3C92;
+    color: white;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.submit-button:hover {
+    background-color: #4B287E;
+}
+
+/* Message styles */
+.error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.sort-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sort-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sort-button {
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #5F3C92;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.sort-button:hover {
+    background-color: #4B287E;
+}
+
+/* Additional styles for Delete Patient page */
+
+/* Instructions styling */
+.instruction {
+    text-align: left;
+    margin-left: 10%;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Table row hover styling */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e8e8e8;
+}
