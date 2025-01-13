@@ -4,7 +4,9 @@
 This project involves designing and implementing a relational database to manage a clinic's staff (doctors and nurses) and patients. The system is optimized to handle complex relationships between doctors, nurses, and patients, while ensuring data consistency and efficiency.  
 
 ---
-
+## ER-Diagram
+[![ER Diagram](https://github.com/aacruzgon/HealthCareManagementApplication/blob/main/images/02_ERDiagram.png)](https://github.com/aacruzgon/HealthCareManagementApplication/blob/main/images/02_ERDiagram.pdf)
+--
 ## ✨ Features  
 
 ### **Doctors**  
